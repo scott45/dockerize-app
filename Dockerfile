@@ -11,5 +11,6 @@ WORKDIR /app
 RUN pip install --upgrade pip
 RUN pip install Flask
 RUN pip freeze > requirements.txt
+
 ENTRYPOINT ["python"]
 CMD ["app.py"]
