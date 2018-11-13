@@ -1,3 +1,3 @@
 # dockerize-app
 Dockerizing applications
-> dockerize simple flask app. 
+> dockerize flask app. 
